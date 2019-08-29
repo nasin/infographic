@@ -1,0 +1,262 @@
+ .highcharts-title {
+   margin: 0 auto;
+   display: inline-block;
+ }
+
+ .button {
+   border: 0px;
+   border-radius: 12px;
+   /*color:white;*/
+   padding: 20px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+ .outer {
+   text-align: center;
+   padding: 20px;
+ }
+
+ .inner {
+   margin: 0 auto;
+   display: inline-block;
+ }
+
+ button:focus {
+   outline: 0;
+ }
+
+ .pollLabel {
+   color: red;
+   font-style: italic;
+   padding-left: 26px;
+ }
+
+ .flagsCountries {
+   position: relative;
+   top: -5px;
+ }
+
+ body {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 200;
+ }
+
+ p {
+   margin: 0 auto;
+   width: 800px;
+ }
+
+ table .center {
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 50%;
+   table-layout: fixed;
+ }
+
+ td {
+   width: 33%;
+ }
+
+ .caTableChart {
+   border-right: 1px solid rgba(204, 204, 204, 0.73);
+   float: right;
+ }
+
+ hr {
+   width: 50%;
+   border-top: 1px solid rgba(204, 204, 204, 0.59);
+   margin-bottom: 50px;
+ }
+
+ hrPadding {
+   padding-bottom: 105px;
+ }
+
+ .caHeader {
+   padding-bottom: 15px;
+   text-align: right;
+   padding-right: 20px;
+ }
+
+ .euHeader {
+   padding-bottom: 15px;
+   padding-left: 20px;
+   text-align: left;
+ }
+
+ .caTableText {
+   text-align: right;
+   padding-top: 6px;
+   padding-right: 9px;
+   padding-bottom: 5px;
+ }
+
+ .euTableText {
+   vertical-align: top;
+   text-align: left;
+   padding-top: 7px;
+   padding-left: 11px;
+   padding-bottom: 5px;
+ }
+
+ .caText {
+   color: #ff002b;
+ }
+
+ .euroText {
+   color: #002bff;
+ }
+
+ #team {
+   margin: auto;
+ }
+
+ #caTeams {
+   width: 260px;
+   height: 70px;
+   display: inline-block;
+   margin: 0 auto
+ }
+
+ #euroTeams {
+   width: 380px;
+   height: 70px;
+   display: inline-block;
+   margin: 0 auto
+ }
+
+ #hostFormResult {
+   height: 300px;
+   min-width: 310px;
+   max-width: 800px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #playerFormResult {
+   height: 300px;
+   min-width: 310px;
+   max-width: 800px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #caCities {
+   height: 300px;
+   min-width: 310px;
+   max-width: 800px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #euroCities {
+   height: 300px;
+   min-width: 310px;
+   max-width: 800px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #caMostValuablePlayers {
+   height: 250px;
+   min-width: 310px;
+   max-width: 800px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #euroMostValuablePlayers {
+   height: 250px;
+   min-width: 310px;
+   max-width: 800px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #caMostValuableSquad {
+   height: 100px;
+   min-width: 310px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #euroMostValuableSquad {
+   height: 100px;
+   min-width: 310px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #caAveragePlayerValuation {
+   height: 100px;
+   min-width: 310px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #euAveragePlayerValuation {
+   height: 100px;
+   min-width: 310px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #caGoalscorers {
+   height: 100px;
+   min-width: 310px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #euGoalscorers {
+   height: 100px;
+   min-width: 310px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #caMatches {
+   min-width: 410px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ #euMatches {
+   min-width: 410px;
+   display: inline-block;
+   margin: 0 auto;
+ }
+
+ /**/
+
+ .left_side {
+   vertical-align: middle;
+   display: table-cell;
+ }
+
+ .center_s {
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .right_side {
+   vertical-align: middle;
+   display: table-cell;
+ }
+
+ @media screen and (max-width: 1000px) {
+   .reduce {
+     display: block;
+     background-color: red;
+     float: auto !important;
+   }
+   .reduceRigth {
+     vertical-align: middle;
+     display: inline-block;
+     background-color: red;
+     float: auto !important;
+   }
+ }
