@@ -29,13 +29,13 @@ export default () => {
     arrSurvey[i].answer = radios[i].checked ? 1 : 0;
   }
 
-  ajax(
-    'POST',
-    'playerPoll',
-    JSON.stringify({
-      answers: arrSurvey
-    })
-  ).then(data => {
-    console.log(data);
-  });
+  // ajax(
+  //   'POST',
+  //   'playerPoll',
+  //   JSON.stringify({
+  //     answers: arrSurvey
+  //   })
+  // ).then(data => {
+  //   console.log(data);
+  // });
 };

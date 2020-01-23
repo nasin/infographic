@@ -1,5 +1,5 @@
-//import ajax from './../../../utils/ajax.js';
-import { postPoll } from './../../../utils/hostAjax.js';
+import ajax from './../../../utils/ajax.js';
+//import { postPoll } from './../../../utils/hostAjax.js';
 
 export default () => {
   var arrayUpdated = [];
@@ -26,6 +26,6 @@ export default () => {
   }
   console.log('arrSurvey', arrSurvey);
   //send email and the code to the server
-  postPoll('hostPoll', { answers: arrSurvey });
+  //postPoll('hostPoll', { answers: arrSurvey });
   //  };
 };

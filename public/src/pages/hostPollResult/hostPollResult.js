@@ -1,12 +1,12 @@
-import { getPoll } from './../../../utils/hostAjax.js';
+//import { getPoll } from './../../../utils/hostAjax.js';
 
 export default () => {
   setTimeout(function() {
-    getPoll('hostPollGET').then(data => {
-      let arrayUpdated = [];
-      for (let i = 0; i < data.answer.length; i++) {
-        arrayUpdated[i] = data.answer[i];
-      }
+   // getPoll('hostPollGET').then(data => {
+      let arrayUpdated = [2,5,4,7];
+      // for (let i = 0; i < data.answer.length; i++) {
+      //   arrayUpdated[i] = data.answer[i];
+      // }
       console.log('In ajax arrayUpdated:  ' + arrayUpdated);
       //Make the chart
       Highcharts.chart('hostFormResult', {
@@ -15,7 +15,7 @@ export default () => {
           backgroundColor: backgroundColor
         },
         title: {
-          text: 'Result'
+          text: ''
         },
         subtitle: {
           text: null
@@ -71,6 +71,6 @@ export default () => {
           }
         ]
       });
-    });
+    //});
   }, 250);
 };

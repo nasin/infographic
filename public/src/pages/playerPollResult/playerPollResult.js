@@ -1,13 +1,13 @@
-import ajax from './../../../utils/ajax.js';
+//import ajax from './../../../utils/ajax.js';
 
 export default () => {
   setTimeout(function() {
-    ajax('GET', 'playerPollGET').then(data => {
-      let arrayPlayerUpdated = [];
+  //  ajax('GET', 'playerPollGET').then(data => {
+      let arrayPlayerUpdated = [2,5,4,7];
 
-      for (let i = 0; i < data.answer.length; i++) {
-        arrayPlayerUpdated[i] = data.answer[i];
-      }
+      // for (let i = 0; i < data.answer.length; i++) {
+      //   arrayPlayerUpdated[i] = data.answer[i];
+      // }
       console.log('In ajax arrayPlayerUpdated:  ' + arrayPlayerUpdated);
       //Make the chart
       Highcharts.chart('playerFormResult', {
@@ -16,7 +16,7 @@ export default () => {
           backgroundColor: backgroundColor
         },
         title: {
-          text: 'Result'
+          text: ''
         },
         subtitle: {
           text: null
@@ -80,6 +80,6 @@ export default () => {
           }
         ]
       });
-    });
+   // });
   }, 250);
 };

@@ -4,5 +4,6 @@ export function postPoll(route, answers) {
   return ajax('POST', route, JSON.stringify(answers));
 }
 export function getPoll(route) {
-  return ajax('GET', route);
+  console.log("poll route " + route);
+  //return ajax('GET', route);
 }

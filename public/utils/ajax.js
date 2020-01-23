@@ -1,4 +1,4 @@
-let url = 'http://localhost:3000/';
+let url = 'https://www.goodwiththat.com/';
 //linkToTheServer
 //let url = 'https://m51zh2s55l.execute-api.eu-west-1.amazonaws.com/Dev/';
 
